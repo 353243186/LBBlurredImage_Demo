@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A9EB071D2117FE007A9AFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9EB061D2117FE007A9AFA /* main.m */; };
+		84A9EB0A1D2117FE007A9AFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9EB091D2117FE007A9AFA /* AppDelegate.m */; };
+		84A9EB0D1D2117FE007A9AFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9EB0C1D2117FE007A9AFA /* ViewController.m */; };
+		84A9EB101D2117FE007A9AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A9EB0E1D2117FE007A9AFA /* Main.storyboard */; };
+		84A9EB121D2117FE007A9AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A9EB111D2117FE007A9AFA /* Assets.xcassets */; };
+		84A9EB151D2117FE007A9AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A9EB131D2117FE007A9AFA /* LaunchScreen.storyboard */; };
+		84A9EB201D2117FE007A9AFA /* LBBlurredImage_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9EB1F1D2117FE007A9AFA /* LBBlurredImage_DemoTests.m */; };
+		84A9EB2B1D2117FE007A9AFA /* LBBlurredImage_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9EB2A1D2117FE007A9AFA /* LBBlurredImage_DemoUITests.m */; };
+		84A9EB391D211A71007A9AFA /* gyy.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A9EB381D211A71007A9AFA /* gyy.png */; };
+		E54E7C7F3DCA769FD10E8BB1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C0795049A961580CFD2DBD /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A9EB1C1D2117FE007A9AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A9EAFA1D2117FE007A9AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A9EB011D2117FE007A9AFA;
+			remoteInfo = LBBlurredImage_Demo;
+		};
+		84A9EB271D2117FE007A9AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A9EAFA1D2117FE007A9AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A9EB011D2117FE007A9AFA;
+			remoteInfo = LBBlurredImage_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84A9EB021D2117FE007A9AFA /* LBBlurredImage_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBBlurredImage_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A9EB061D2117FE007A9AFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84A9EB081D2117FE007A9AFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84A9EB091D2117FE007A9AFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84A9EB0B1D2117FE007A9AFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84A9EB0C1D2117FE007A9AFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84A9EB0F1D2117FE007A9AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A9EB111D2117FE007A9AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A9EB141D2117FE007A9AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84A9EB161D2117FE007A9AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A9EB1B1D2117FE007A9AFA /* LBBlurredImage_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBBlurredImage_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A9EB1F1D2117FE007A9AFA /* LBBlurredImage_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBBlurredImage_DemoTests.m; sourceTree = "<group>"; };
+		84A9EB211D2117FE007A9AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A9EB261D2117FE007A9AFA /* LBBlurredImage_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBBlurredImage_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A9EB2A1D2117FE007A9AFA /* LBBlurredImage_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBBlurredImage_DemoUITests.m; sourceTree = "<group>"; };
+		84A9EB2C1D2117FE007A9AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A9EB381D211A71007A9AFA /* gyy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gyy.png; sourceTree = "<group>"; };
+		87902D2672B3185E0F7D6EAB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B43BFB37D1EEFEFC9F151DE0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C7C0795049A961580CFD2DBD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A9EAFF1D2117FE007A9AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54E7C7F3DCA769FD10E8BB1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A9EB181D2117FE007A9AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A9EB231D2117FE007A9AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54A622232E0C5F1C71C1238D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7C0795049A961580CFD2DBD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C199F34030A7FAD324F1A74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B43BFB37D1EEFEFC9F151DE0 /* Pods.debug.xcconfig */,
+				87902D2672B3185E0F7D6EAB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84A9EAF91D2117FE007A9AFA = {
+			isa = PBXGroup;
+			children = (
+				84A9EB041D2117FE007A9AFA /* LBBlurredImage_Demo */,
+				84A9EB1E1D2117FE007A9AFA /* LBBlurredImage_DemoTests */,
+				84A9EB291D2117FE007A9AFA /* LBBlurredImage_DemoUITests */,
+				84A9EB031D2117FE007A9AFA /* Products */,
+				7C199F34030A7FAD324F1A74 /* Pods */,
+				54A622232E0C5F1C71C1238D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84A9EB031D2117FE007A9AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A9EB021D2117FE007A9AFA /* LBBlurredImage_Demo.app */,
+				84A9EB1B1D2117FE007A9AFA /* LBBlurredImage_DemoTests.xctest */,
+				84A9EB261D2117FE007A9AFA /* LBBlurredImage_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A9EB041D2117FE007A9AFA /* LBBlurredImage_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				84A9EB081D2117FE007A9AFA /* AppDelegate.h */,
+				84A9EB091D2117FE007A9AFA /* AppDelegate.m */,
+				84A9EB381D211A71007A9AFA /* gyy.png */,
+				84A9EB0B1D2117FE007A9AFA /* ViewController.h */,
+				84A9EB0C1D2117FE007A9AFA /* ViewController.m */,
+				84A9EB0E1D2117FE007A9AFA /* Main.storyboard */,
+				84A9EB111D2117FE007A9AFA /* Assets.xcassets */,
+				84A9EB131D2117FE007A9AFA /* LaunchScreen.storyboard */,
+				84A9EB161D2117FE007A9AFA /* Info.plist */,
+				84A9EB051D2117FE007A9AFA /* Supporting Files */,
+			);
+			path = LBBlurredImage_Demo;
+			sourceTree = "<group>";
+		};
+		84A9EB051D2117FE007A9AFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84A9EB061D2117FE007A9AFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A9EB1E1D2117FE007A9AFA /* LBBlurredImage_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				84A9EB1F1D2117FE007A9AFA /* LBBlurredImage_DemoTests.m */,
+				84A9EB211D2117FE007A9AFA /* Info.plist */,
+			);
+			path = LBBlurredImage_DemoTests;
+			sourceTree = "<group>";
+		};
+		84A9EB291D2117FE007A9AFA /* LBBlurredImage_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84A9EB2A1D2117FE007A9AFA /* LBBlurredImage_DemoUITests.m */,
+				84A9EB2C1D2117FE007A9AFA /* Info.plist */,
+			);
+			path = LBBlurredImage_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A9EB011D2117FE007A9AFA /* LBBlurredImage_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A9EB2F1D2117FE007A9AFA /* Build configuration list for PBXNativeTarget "LBBlurredImage_Demo" */;
+			buildPhases = (
+				AB96318BED4EFE925D217A3D /* Check Pods Manifest.lock */,
+				84A9EAFE1D2117FE007A9AFA /* Sources */,
+				84A9EAFF1D2117FE007A9AFA /* Frameworks */,
+				84A9EB001D2117FE007A9AFA /* Resources */,
+				3FB97B2F711F0FE9B9D9AF8B /* Embed Pods Frameworks */,
+				11CDDE0F8C2A6CD782B4C76D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBBlurredImage_Demo;
+			productName = LBBlurredImage_Demo;
+			productReference = 84A9EB021D2117FE007A9AFA /* LBBlurredImage_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84A9EB1A1D2117FE007A9AFA /* LBBlurredImage_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A9EB321D2117FE007A9AFA /* Build configuration list for PBXNativeTarget "LBBlurredImage_DemoTests" */;
+			buildPhases = (
+				84A9EB171D2117FE007A9AFA /* Sources */,
+				84A9EB181D2117FE007A9AFA /* Frameworks */,
+				84A9EB191D2117FE007A9AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A9EB1D1D2117FE007A9AFA /* PBXTargetDependency */,
+			);
+			name = LBBlurredImage_DemoTests;
+			productName = LBBlurredImage_DemoTests;
+			productReference = 84A9EB1B1D2117FE007A9AFA /* LBBlurredImage_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84A9EB251D2117FE007A9AFA /* LBBlurredImage_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A9EB351D2117FE007A9AFA /* Build configuration list for PBXNativeTarget "LBBlurredImage_DemoUITests" */;
+			buildPhases = (
+				84A9EB221D2117FE007A9AFA /* Sources */,
+				84A9EB231D2117FE007A9AFA /* Frameworks */,
+				84A9EB241D2117FE007A9AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A9EB281D2117FE007A9AFA /* PBXTargetDependency */,
+			);
+			name = LBBlurredImage_DemoUITests;
+			productName = LBBlurredImage_DemoUITests;
+			productReference = 84A9EB261D2117FE007A9AFA /* LBBlurredImage_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A9EAFA1D2117FE007A9AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AlezJi;
+				TargetAttributes = {
+					84A9EB011D2117FE007A9AFA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+					};
+					84A9EB1A1D2117FE007A9AFA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+						TestTargetID = 84A9EB011D2117FE007A9AFA;
+					};
+					84A9EB251D2117FE007A9AFA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+						TestTargetID = 84A9EB011D2117FE007A9AFA;
+					};
+				};
+			};
+			buildConfigurationList = 84A9EAFD1D2117FE007A9AFA /* Build configuration list for PBXProject "LBBlurredImage_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A9EAF91D2117FE007A9AFA;
+			productRefGroup = 84A9EB031D2117FE007A9AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A9EB011D2117FE007A9AFA /* LBBlurredImage_Demo */,
+				84A9EB1A1D2117FE007A9AFA /* LBBlurredImage_DemoTests */,
+				84A9EB251D2117FE007A9AFA /* LBBlurredImage_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A9EB001D2117FE007A9AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A9EB151D2117FE007A9AFA /* LaunchScreen.storyboard in Resources */,
+				84A9EB121D2117FE007A9AFA /* Assets.xcassets in Resources */,
+				84A9EB101D2117FE007A9AFA /* Main.storyboard in Resources */,
+				84A9EB391D211A71007A9AFA /* gyy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A9EB191D2117FE007A9AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A9EB241D2117FE007A9AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11CDDE0F8C2A6CD782B4C76D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FB97B2F711F0FE9B9D9AF8B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB96318BED4EFE925D217A3D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A9EAFE1D2117FE007A9AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A9EB0D1D2117FE007A9AFA /* ViewController.m in Sources */,
+				84A9EB0A1D2117FE007A9AFA /* AppDelegate.m in Sources */,
+				84A9EB071D2117FE007A9AFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A9EB171D2117FE007A9AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A9EB201D2117FE007A9AFA /* LBBlurredImage_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A9EB221D2117FE007A9AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A9EB2B1D2117FE007A9AFA /* LBBlurredImage_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84A9EB1D1D2117FE007A9AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A9EB011D2117FE007A9AFA /* LBBlurredImage_Demo */;
+			targetProxy = 84A9EB1C1D2117FE007A9AFA /* PBXContainerItemProxy */;
+		};
+		84A9EB281D2117FE007A9AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A9EB011D2117FE007A9AFA /* LBBlurredImage_Demo */;
+			targetProxy = 84A9EB271D2117FE007A9AFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84A9EB0E1D2117FE007A9AFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A9EB0F1D2117FE007A9AFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84A9EB131D2117FE007A9AFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A9EB141D2117FE007A9AFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A9EB2D1D2117FE007A9AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84A9EB2E1D2117FE007A9AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A9EB301D2117FE007A9AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43BFB37D1EEFEFC9F151DE0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LBBlurredImage_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.LBBlurredImage-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84A9EB311D2117FE007A9AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87902D2672B3185E0F7D6EAB /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LBBlurredImage_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.LBBlurredImage-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84A9EB331D2117FE007A9AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LBBlurredImage_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.LBBlurredImage-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBBlurredImage_Demo.app/LBBlurredImage_Demo";
+			};
+			name = Debug;
+		};
+		84A9EB341D2117FE007A9AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LBBlurredImage_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.LBBlurredImage-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBBlurredImage_Demo.app/LBBlurredImage_Demo";
+			};
+			name = Release;
+		};
+		84A9EB361D2117FE007A9AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LBBlurredImage_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.LBBlurredImage-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LBBlurredImage_Demo;
+			};
+			name = Debug;
+		};
+		84A9EB371D2117FE007A9AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LBBlurredImage_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.LBBlurredImage-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LBBlurredImage_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A9EAFD1D2117FE007A9AFA /* Build configuration list for PBXProject "LBBlurredImage_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A9EB2D1D2117FE007A9AFA /* Debug */,
+				84A9EB2E1D2117FE007A9AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A9EB2F1D2117FE007A9AFA /* Build configuration list for PBXNativeTarget "LBBlurredImage_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A9EB301D2117FE007A9AFA /* Debug */,
+				84A9EB311D2117FE007A9AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A9EB321D2117FE007A9AFA /* Build configuration list for PBXNativeTarget "LBBlurredImage_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A9EB331D2117FE007A9AFA /* Debug */,
+				84A9EB341D2117FE007A9AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A9EB351D2117FE007A9AFA /* Build configuration list for PBXNativeTarget "LBBlurredImage_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A9EB361D2117FE007A9AFA /* Debug */,
+				84A9EB371D2117FE007A9AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A9EAFA1D2117FE007A9AFA /* Project object */;
+}
